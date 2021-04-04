@@ -9,7 +9,7 @@ constructor(props){
     this.state = {quiz_position: 1}
 }
 render() {
-    return <QuizQuestion quiz_questions={quizData.quiz_questions[this.state.quiz_position-1]}/>
+    return <QuizQuestion quiz_question={quizData.quiz_questions[this.state.quiz_position-1]}/>
 }
     
 }
